@@ -9,10 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.7",
     "@suncel/nextjs": "~1.0.24",
+    "clsx": "^1.2.1",
     "next": "13.0.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-popper": "^2.3.0",
     "sass": "^1.56.1"
   },
   "devDependencies": {

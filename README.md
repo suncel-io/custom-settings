@@ -2,7 +2,7 @@
     <img alt="Suncel" src="https://assets.suncel.io/61bf5e233c962a862faf209f/ryNwB-meta-suncel-general.png" width="300" />
 </p>
 <h1 align="center">
-  Suncel NextJS Starter
+  Suncel NextJS Custom Settings
 </h1>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
@@ -11,13 +11,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Have a look to our [documentation](https://docs.suncel.io)
 
-## 🎉 **Starter features**
+## 🎉 **Custom settings**
 
-The starter includes all the configuration required by Suncel(admin, preview, page render, etc...). You just need to update your API keys in the .env
+This project includes custom settings for Suncel CMS. It is based on the [Suncel Tailwind CSS Starter](https://github.com/suncel-io/tailwindcss-starter)
 
-it will includes Tailwind CSS.
+You just need to update your API keys in the .env
 
-On top of that, you have a Block example and a wrapper of the rich text with some style that you are free to modify.
+The project includes the following Custom settings:
+
+- A custom Spacing settings to handle the margin and padding of your Suncel blocks
 
 ## 🛠️ **Suncel Setup**
 

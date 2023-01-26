@@ -1,0 +1,30 @@
+.container {
+  @apply grid w-full;
+  grid-template-columns: 36px 4px 36px 1fr 36px 4px 36px;
+  grid-template-rows: 24px 4px 24px 1fr 24px 4px 24px;
+}
+
+.marginContainer {
+  @apply grid w-full p-1 justify-center;
+  height: 160px;
+  grid-area: 1 / 1 / -1 / -1;
+  grid-template-columns: 36px 1fr 36px;
+  grid-template-rows: 24px minmax(16px, 1fr) 24px;
+  grid-template-areas:
+    ". top ."
+    "left . right"
+    ". bottom .";
+}
+
+.paddingContainer {
+  @apply grid w-full p-1 justify-center self-center justify-self-center;
+  grid-area: 3 / 3 / span 3 / span 3;
+  grid-template-columns: 36px 1fr 36px;
+  grid-template-rows: 24px minmax(16px, 1fr) 24px;
+  width: 85%;
+  height: 80px;
+  grid-template-areas:
+    ". top ."
+    "left . right"
+    ". bottom .";
+}
